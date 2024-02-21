@@ -1,8 +1,8 @@
 import { useState, useEffect} from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import { ArrowRightCircle } from "react-bootstrap-icons";
-//import headerImg from "../assets/img/header-img.svg";
-import headerImg from "../assets/img/LarryDev_Transparent.png";
+//import headerImg from "../assets/img/header-img.svg"; // --> Imagen con fondo Blanco
+import headerImg from "../assets/img/LarryDev_Transparent.png";   // Imagen sin fondo blanco (PNG)
 //------------------------------------------------------------------
 
 export const Banner = () => {
@@ -49,10 +49,10 @@ export const Banner = () => {
             <Container>
                 <Row className='align-items-center'>
                     <Col xs={12} md={6} xl={7}>
-                    <span className='tagline'>Bienvenido a mi portafolio</span>
-                    <h1>{`Hola, soy Antonio Sarmiento Yon `}<br/><span className='wrap'>{text}</span></h1>
-                    <p>lorem ipsum cmdsicndsifcnfncwdsiu  fudiesfhcdjus cesbfdjhsf efgbdsjf dsfudscdsc dscc</p>
-                    <button onClick={() => console.log('connect')}>Conectémos <ArrowRightCircle size={25} /> </button>
+                        <span className='tagline'>Bienvenido a mi portafolio</span>
+                        <h1>{`Hola, soy Antonio Sarmiento Yon `}<br/><span className='wrap'>{text}</span></h1>
+                        <p>lorem ipsum cmdsicndsifcnfncwdsiu  fudiesfhcdjus cesbfdjhsf efgbdsjf dsfudscdsc dscc</p>
+                        <button onClick={() => console.log('connect')}>Conectémos <ArrowRightCircle size={25} /> </button>
                     </Col>
                     <Col xs={12} md={6} xl={5}>
                         <img src={headerImg} alt="Headder Img" />
