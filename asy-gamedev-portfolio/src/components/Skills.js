@@ -35,7 +35,7 @@ export const Skills = () =>{
                     <Col>
                     <div className="skill-bx">
                         <h2>
-                            Skills
+                            Mis habilidades
                         </h2>
                         <p>lorem apsumsdn sjd djndjaed jhdbeh dwedb dewdbsjend asdasn dewqd nwe. <br></br> dne dw jh edn wedwe nddcmes udnfwepew hewf eojwe fnwoie jfwedi dnwo iefnlnidijij hdhuednd</p>
                         <Carousel responsive={responsive} infinite={true} className="skill-slider">
