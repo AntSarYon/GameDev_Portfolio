@@ -160,8 +160,9 @@ span.navbar-text {
 	background-color: transparent;
 	transition: 0.3s ease-in-out;
 }
-.navbar-text button span {
+.navbar-text button a {
   z-index: 1;
+  color: white;
 }
 .navbar-text button::before {
   content: "";
@@ -175,6 +176,9 @@ span.navbar-text {
   transition: 0.3s ease-in-out;
 }
 .navbar-text button:hover {
+  color: #121212;
+}
+.navbar-text button:hover a {
   color: #121212;
 }
 .navbar-text button:hover::before {
@@ -272,18 +276,26 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   display: flex;
   align-items: center;
 }
-.banner button svg {
+
+.align-items-center{
+  align-items: center;
+}
+
+.banner button a {
   font-size: 25px;
   margin-left: 10px;
   transition: 0.3s ease-in-out;
   line-height: 1;
+  color: white;
+  text-decoration: none;
 }
-.banner button:hover svg {
+.banner button:hover a {
   margin-left: 25px;
 }
 .banner img {
   animation: updown 3s linear infinite;
 }
+
 @keyframes updown {
     0% {
         transform: translateY(-20px);
@@ -301,8 +313,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /************ Skills Css ************/
 .skill {
-  padding: 0 0 50px 0;
+  padding: 80px 0 50px 0;
   position: relative;
+  background-color: black;
 }
 .skill-bx {
   background: #151515;
@@ -336,7 +349,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   position: absolute;
   bottom: 0;
   width: 40%;
-  z-index: -4;
+  z-index: -1;
 }
 
 /************ Projects Css ************/
@@ -456,19 +469,25 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-size: 15px;
   letter-spacing: 0.8px;
 }
+.proj-txtx a {
+  font-weight: 400;
+  font-size: 15px;
+  letter-spacing: 0.8px;
+  color: yellow;
+}
 .background-image-right {
   top: 20%;
   position: absolute;
   bottom: 0;
   width: 35%;
   right: 0;
-  z-index: -4;
+  z-index:-1;
 }
 
 /************ Projects Css ************/
 .contact {
   background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
-  padding: 60px 0 200px 0;
+  padding: 60px 0 80px 0;
 }
 .contact img {
   width: 92%;

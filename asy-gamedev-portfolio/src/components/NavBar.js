@@ -2,9 +2,10 @@ import { useState, useEffect} from 'react';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import logo from '../assets/img/logo.svg'
+import logo from '../assets/img/TwitchLogo_White.png'
 import linkedinIcon from '../assets/img/nav-icon1.svg'
 import itchioIcon from '../assets/img/itchio.png'
+import GitHubIcon from '../assets/img/GitHub.png'
 
 // ------------------------------------------------------------
 
@@ -53,10 +54,11 @@ export const NavBar = () => {
             </Nav>
             <span className="navbar-text">
                 <div className="social-icon">
-                    <a href="https://www.linkedin.com/in/antonio-sarmiento-yon-5a44b01a5/" target='_blank'><img src={linkedinIcon} alt="navIcon1"/></a>
-                    <a href="https://larraondo.itch.io" target='_blank'><img src={itchioIcon} alt="navIcon3"/></a>
+                    <a href="https://www.linkedin.com/in/antonio-sarmiento-yon-5a44b01a5/" target='_blank'><img src={linkedinIcon} alt="LinkedinIcon"/></a>
+                    <a href="https://github.com/AntSarYon" target='_blank'><img src={GitHubIcon} alt="GitHubIcon"/></a>
+                    <a href="https://larraondo.itch.io" target='_blank'><img src={itchioIcon} alt="ItchioIcon"/></a>
                 </div>
-                <button className='vvd' onClick={() => console.log('connect')}><span>Conectémos</span></button>
+                <button className='vvd' onClick={() => onUpdateActiveLink('connect')}><a href="#connect">Contáctame</a></button>
             </span>
         </Navbar.Collapse>
         </Container>

@@ -1,7 +1,11 @@
 import { Container, Row, Col, Nav, Tab } from "react-bootstrap";
-import projImg1 from "../assets/img/project-img1.png";
-import projImg2 from "../assets/img/project-img2.png";
-import projImg3 from "../assets/img/project-img3.png";
+import imgTomocho from "../assets/img/Tomocho.png";
+import imgTracesOfThePast from "../assets/img/TracesOfThePast.png";
+import imgOtakuest from "../assets/img/OtaKuest.png";
+import imgRollingGuy from "../assets/img/Portada.PNG";
+import imgLaQueseria from "../assets/img/LaQueseria.png";
+import imgDitroWorld from "../assets/img/DitroWorld.png";
+
 import { ProjectCard } from "./ProjectCard";
 import colorSharp2 from "../assets/img/color-sharp2.png"
 
@@ -9,39 +13,39 @@ export const Projects = () =>{
     
     const projects = [
         {
-            title: "TitleGame",
-            description: "...DEDEWD",
-            imgUrl: projImg1,
+            title: "TOM-8-O",
+            description: "Si lees esto, eres muy guap@. Te invito un helado.",
+            imgUrl: imgTomocho,
         },
         {
-            title: "TitleGame",
-            description: "...DEDEWD",
-            imgUrl: projImg2,
+            title: "TRACES OF THE PAST",
+            description: "Si lees esto, eres muy guap@. Te invito un helado.",
+            imgUrl: imgTracesOfThePast,
         },
         {
-            title: "TitleGame",
-            description: "...DEDEWD",
-            imgUrl: projImg3,
+            title: "OTAKUEST",
+            description: "Si lees esto, eres muy guap@. Te invito un helado.",
+            imgUrl: imgOtakuest,
         },
         {
-            title: "TitleGame",
-            description: "...DEDEWD",
-            imgUrl: projImg1,
+            title: "ROLLING GUY",
+            description: "Si lees esto, eres muy guap@. Te invito un helado.",
+            imgUrl: imgRollingGuy,
         },
         {
-            title: "TitleGame",
-            description: "...DEDEWD",
-            imgUrl: projImg2,
+            title: "LA QUESERÍA",
+            description:  "Si lees esto, eres muy guap@. Te invito un helado.",
+            imgUrl: imgLaQueseria,
         },
         {
-            title: "TitleGame",
-            description: "...DEDEWD",
-            imgUrl: projImg3,
+            title: "DITRO WORLD",
+            description:  "Si lees esto, eres muy guap@. Te invito un helado.",
+            imgUrl: imgDitroWorld,
         },
     ];
     
     return(
-        <section>
+        <section className="project" id="projects">
             <Container>
                 <Row>
                     <Col>
@@ -50,13 +54,13 @@ export const Projects = () =>{
                         <Tab.Container id="projects-tabs" defaultActiveKey="first">
                         <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                             <Nav.Item>
-                                <Nav.Link eventKey="first">Tab One</Nav.Link>
+                                <Nav.Link eventKey="first">Videojuegos</Nav.Link>
                             </Nav.Item>
                             <Nav.Item>
-                                <Nav.Link eventKey="second">Tab Two</Nav.Link>
+                                <Nav.Link eventKey="second">Páginas Web</Nav.Link>
                             </Nav.Item>
                             <Nav.Item>
-                                <Nav.Link eventKey="third">Tab Three</Nav.Link>
+                                <Nav.Link eventKey="third">Otros</Nav.Link>
                             </Nav.Item>
                         </Nav>
                         <Tab.Content>
