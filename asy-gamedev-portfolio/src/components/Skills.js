@@ -37,8 +37,8 @@ export const Skills = () =>{
                         <h2>
                             Mis habilidades
                         </h2>
-                        <p>En lo que respecta al desarrollo de videojuegos, cuento con experiencia en 2 principales motores: UNREAL ENGINE y UNITY.<br/> 
-                            Del mismo modo, mantengo un adecuado dominio de los lenguajes de programación en los cuáles se basan cada uno de ellos. <br/>
+                        <p>Respecta al desarrollo de videojuegos, cuento con basta experiencia en 2 motores: UNREAL ENGINE y UNITY.<br/> 
+                            Del mismo modo, mantengo un adecuado dominio de los lenguajes de programación en los cuáles se basa cada uno de ellos.<br/>
                             A continuación, te presento mi nivel de domino con cada una de estas herramientas:</p>
                         <Carousel responsive={responsive} infinite={true} className="skill-slider">
                             <div className="item">
