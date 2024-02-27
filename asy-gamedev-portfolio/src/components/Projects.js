@@ -7,6 +7,7 @@ import imgLaQueseria from "../assets/img/LaQueseria.png";
 import imgDitroWorld from "../assets/img/DitroWorld.png";
 import imgNoEsDoom from "../assets/img/NoEsDoom.png";
 import imgServicePaws from "../assets/img/ServicePaws.png";
+import imgReactPortfolio from "../assets/img/React_Portfolio.png";
 
 import { ProjectCard } from "./ProjectCard";
 import { InDevelopmentCard } from ".//InDevelopmentCard";
@@ -66,6 +67,16 @@ export const Projects = () =>{
         },
     ];
 
+    const webProjects = [
+        {
+            title: "React Portfolio",
+            description: "Si lees esto, eres muy guap@. Te invito un helado. rewrfewf fewewfwefew",
+            imgUrl: imgReactPortfolio,
+            pageUrl: "",
+            engine: "React",
+        },
+    ];
+
     const inDevelopmentProjects = [
         {
             title: "SERVICE PAWS",
@@ -108,7 +119,15 @@ export const Projects = () =>{
                                 </Row>
                             </Tab.Pane>
                             <Tab.Pane eventKey="second">
-                                Por el momento no he publicado proyectos de este tipo, pero permanece atento.
+                            <Row>
+                                    {
+                                        webProjects.map((project, index) => {
+                                            return(
+                                                <ProjectCard key={index} {...project} />
+                                            )
+                                        })
+                                    }
+                                </Row>
                             </Tab.Pane>
                             <Tab.Pane eventKey="third">
                                 <Row>
