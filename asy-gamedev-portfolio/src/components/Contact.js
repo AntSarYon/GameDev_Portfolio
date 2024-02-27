@@ -12,7 +12,7 @@ export const Contact = () => {
                     <Col md={6}>
                         <h2>Mentengamos el contacto</h2>
                         <h3>Envíame un correo con el motivo de tu comunicación.</h3>
-                        <Button className='primary' size="lg" href="mailto:antoniosaryon155@gmail.com" target='_blank'>Escribir correo</Button>
+                        <Button variant="warning" size="lg" href="mailto:antoniosaryon155@gmail.com" target='_blank'>Escribir correo</Button>
                     </Col>
                 </Row>
             </Container>

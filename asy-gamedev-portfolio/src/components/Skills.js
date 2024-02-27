@@ -1,9 +1,9 @@
 import { Row, Col, Container } from "react-bootstrap";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import meter1 from "../assets/img/meter1.svg";
-import meter2 from "../assets/img/meter2.svg";
-import meter3 from "../assets/img/meter3.svg";
+import meter95 from "../assets/img/meter1.svg";
+import meter80 from "../assets/img/meter2.svg";
+import meter90 from "../assets/img/meter3.svg";
 import colorSharp from "../assets/img/color-sharp.png"
 
 export const Skills = () =>{
@@ -37,23 +37,49 @@ export const Skills = () =>{
                         <h2>
                             Mis habilidades
                         </h2>
-                        <p>lorem apsumsdn sjd djndjaed jhdbeh dwedb dewdbsjend asdasn dewqd nwe. <br></br> dne dw jh edn wedwe nddcmes udnfwepew hewf eojwe fnwoie jfwedi dnwo iefnlnidijij hdhuednd</p>
+                        <p>En lo que respecta al desarrollo de videojuegos, cuento con experiencia en 2 principales motores: UNREAL ENGINE y UNITY.<br/> 
+                            Del mismo modo, mantengo un adecuado dominio de los lenguajes de programación en los cuáles se basan cada uno de ellos. <br/>
+                            A continuación, te presento mi nivel de domino con cada una de estas herramientas:</p>
                         <Carousel responsive={responsive} infinite={true} className="skill-slider">
                             <div className="item">
-                                <img src={meter1} alt="ImageMeter"/>
-                                <h5>Programador</h5>
+                                <img src={meter90} alt="ImageMeter"/>
+                                <h5>C#</h5>
                             </div>
                             <div className="item">
-                                <img src={meter2} alt="ImageMeter"/>
-                                <h5>Diseñador</h5>
+                                <img src={meter90} alt="ImageMeter"/>
+                                <h5>UNITY</h5>
                             </div>
                             <div className="item">
-                                <img src={meter2} alt="ImageMeter"/>
-                                <h5>Modelador 3D</h5>
+                                <img src={meter80} alt="ImageMeter"/>
+                                <h5>C++</h5>
                             </div>
                             <div className="item">
-                                <img src={meter2} alt="ImageMeter"/>
-                                <h5>Artista 2D</h5>
+                                <img src={meter80} alt="ImageMeter"/>
+                                <h5>UNREAL ENGINE</h5>
+                            </div>
+                        </Carousel>
+                        <p>Por el lado del desarrollo web, me centro principalmente en la dimensión FrontEnd. <br/> 
+                        Conozco los lenguajes HTML, CSS y JavaScript, teniendo experiencia principalmente con la librería de React.</p>
+                        <Carousel responsive={responsive} infinite={true} className="skill-slider">
+                            <div className="item">
+                                <img src={meter95} alt="ImageMeter"/>
+                                <h5>HTML</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter80} alt="ImageMeter"/>
+                                <h5>CSS</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter90} alt="ImageMeter"/>
+                                <h5>JavaScript</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter80} alt="ImageMeter"/>
+                                <h5>React</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter80} alt="ImageMeter"/>
+                                <h5>Node.js</h5>
                             </div>
                         </Carousel>
                     </div>

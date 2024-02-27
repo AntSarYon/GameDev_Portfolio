@@ -9,7 +9,7 @@ export const Banner = () => {
 
     const [loopNum, setLoopNum] = useState(0);
     const [isDeleting, setIsDeleting] = useState(false);
-    const toRotate = ["Game Developer", "Game Designer", "3D Modeler"];
+    const toRotate = ["Game Developer", "Web Developer"];
     const [text, setText] = useState('');
     const [delta, setDelta] = useState(300 - Math.random() * 100);
     const period = 2000;
@@ -50,8 +50,8 @@ export const Banner = () => {
                 <Row className='align-items-center'>
                     <Col xs={12} md={6} xl={7}>
                         <span className='tagline'>Bienvenido a mi portafolio</span>
-                        <h1>{`Hola, soy Antonio Sarmiento Yon `}<br/>|<span className='wrap'>{text}</span></h1>
-                        <p>lorem ipsum cmdsicndsifcnfncwdsiu  fudiesfhcdjus cesbfdjhsf efgbdsjf dsfudscdsc dscc</p>
+                        <h1>Hola, soy <br/>{`Antonio Sarmiento Yon`}<br/>|<span className='wrap'>{text}</span></h1>
+                        <p>Bachiller de Ingeniería de Sistemas en la Universidad de Lima. <br/> Especializado en el desarrollo de Software:<br/>Videojuegos | Páginas Web</p>
                         <button><a href='#connect'>Contáctame</a><ArrowRightCircle size={25}/></button>
                     </Col>
                     <Col xs={12} md={6} xl={5}>

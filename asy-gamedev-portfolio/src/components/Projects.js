@@ -5,8 +5,11 @@ import imgOtakuest from "../assets/img/OtaKuest.png";
 import imgRollingGuy from "../assets/img/Portada.PNG";
 import imgLaQueseria from "../assets/img/LaQueseria.png";
 import imgDitroWorld from "../assets/img/DitroWorld.png";
+import imgNoEsDoom from "../assets/img/NoEsDoom.png";
+import imgServicePaws from "../assets/img/ServicePaws.png";
 
 import { ProjectCard } from "./ProjectCard";
+import { InDevelopmentCard } from ".//InDevelopmentCard";
 import colorSharp2 from "../assets/img/color-sharp2.png"
 
 export const Projects = () =>{
@@ -14,33 +17,62 @@ export const Projects = () =>{
     const projects = [
         {
             title: "TOM-8-O",
-            description: "Si lees esto, eres muy guap@. Te invito un helado.",
+            description: "Si lees esto, eres muy guap@. Te invito un helado. rewrfewf fewewfwefew",
             imgUrl: imgTomocho,
+            pageUrl: "https://heinzdbv.itch.io/tom8-o",
+            engine: "UNITY",
         },
         {
             title: "TRACES OF THE PAST",
             description: "Si lees esto, eres muy guap@. Te invito un helado.",
             imgUrl: imgTracesOfThePast,
+            pageUrl: "https://nathkalantar.itch.io/traces-of-the-past",
+            engine: "UNITY",
         },
         {
             title: "OTAKUEST",
             description: "Si lees esto, eres muy guap@. Te invito un helado.",
             imgUrl: imgOtakuest,
+            pageUrl: "https://edyssonrbt.itch.io/otakuest",
+            engine: "UNITY",
         },
         {
             title: "ROLLING GUY",
             description: "Si lees esto, eres muy guap@. Te invito un helado.",
             imgUrl: imgRollingGuy,
+            pageUrl: "https://larraondo.itch.io/rolling-guy",
+            engine: "UNITY",
         },
         {
             title: "LA QUESERÍA",
             description:  "Si lees esto, eres muy guap@. Te invito un helado.",
             imgUrl: imgLaQueseria,
+            pageUrl: "https://nathkalantar.itch.io/la-queseria",
+            engine: "UNITY",
         },
         {
             title: "DITRO WORLD",
             description:  "Si lees esto, eres muy guap@. Te invito un helado.",
             imgUrl: imgDitroWorld,
+            pageUrl: "https://larraondo.itch.io/ditroworld",
+            engine: "UNITY",
+        },
+        {
+            title: "NO ES DOOM",
+            description:  "Si lees esto, eres muy guap@. Te invito un helado.",
+            imgUrl: imgNoEsDoom,
+            pageUrl: "https://larraondo.itch.io/noesdoomreescalado",
+            engine: "UNITY",
+        },
+    ];
+
+    const inDevelopmentProjects = [
+        {
+            title: "SERVICE PAWS",
+            description: "Si lees esto, eres muy guap@. Te invito un helado. rewrfewf fewewfwefew",
+            imgUrl: imgServicePaws,
+            pageUrl: "https://heinzdbv.itch.io/tom8-o",
+            engine: "UNITY",
         },
     ];
     
@@ -50,7 +82,7 @@ export const Projects = () =>{
                 <Row>
                     <Col>
                         <h2>Mis Proyectos</h2>
-                        <p>Lorem Ipsum dsan asjunak jcdn dajsdba sdjan sduanq dain fwefcyrn hyrb iksfyx </p>
+                        <p>Aquí encontrarás información sobre mis proyectos ya publicados, así como aquellos en los que estoy trabajando actualmente.</p>
                         <Tab.Container id="projects-tabs" defaultActiveKey="first">
                         <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                             <Nav.Item>
@@ -60,7 +92,7 @@ export const Projects = () =>{
                                 <Nav.Link eventKey="second">Páginas Web</Nav.Link>
                             </Nav.Item>
                             <Nav.Item>
-                                <Nav.Link eventKey="third">Otros</Nav.Link>
+                                <Nav.Link eventKey="third">En desarrollo</Nav.Link>
                             </Nav.Item>
                         </Nav>
                         <Tab.Content>
@@ -75,8 +107,20 @@ export const Projects = () =>{
                                     }
                                 </Row>
                             </Tab.Pane>
-                            <Tab.Pane eventKey="second">Lorem Ipsum</Tab.Pane>
-                            <Tab.Pane eventKey="third">Lorem Ipsum</Tab.Pane>
+                            <Tab.Pane eventKey="second">
+                                Por el momento no he publicado proyectos de este tipo, pero permanece atento.
+                            </Tab.Pane>
+                            <Tab.Pane eventKey="third">
+                                <Row>
+                                    {
+                                        inDevelopmentProjects.map((project, index) => {
+                                            return(
+                                                <InDevelopmentCard key={index} {...project} />
+                                            )
+                                        })
+                                    }
+                                </Row>
+                            </Tab.Pane>
                         </Tab.Content>
                         </Tab.Container>
                     </Col>
