@@ -8,6 +8,7 @@ import imgDitroWorld from "../assets/img/DitroWorld.png";
 import imgNoEsDoom from "../assets/img/NoEsDoom.png";
 import imgServicePaws from "../assets/img/ServicePaws.png";
 import imgReactPortfolio from "../assets/img/React_Portfolio.png";
+import imgMinimalistPortfolio from "../assets/img/MinimalistPortfolio.png";
 
 import { ProjectCard } from "./ProjectCard";
 import { InDevelopmentCard } from ".//InDevelopmentCard";
@@ -67,6 +68,8 @@ export const Projects = () =>{
         },
     ];
 
+    //- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
     const webProjects = [
         {
             title: "React Portfolio",
@@ -75,7 +78,16 @@ export const Projects = () =>{
             pageUrl: "",
             engine: "React",
         },
+        {
+            title: "Minimalist Portfolio",
+            description: "Si lees esto, eres muy guap@. Te invito un helado. rewrfewf fewewfwefew",
+            imgUrl: imgMinimalistPortfolio,
+            pageUrl: "",
+            engine: "HTML, CSS & Javascript",
+        },
     ];
+
+    //- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 
     const inDevelopmentProjects = [
         {
@@ -87,6 +99,8 @@ export const Projects = () =>{
         },
     ];
     
+    //********************************************************************************************* */
+
     return(
         <section className="project" id="projects">
             <Container>
