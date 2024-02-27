@@ -58,7 +58,7 @@ export const NavBar = () => {
                     <a href="https://github.com/AntSarYon" target='_blank'><img src={GitHubIcon} alt="GitHubIcon"/></a>
                     <a href="https://larraondo.itch.io" target='_blank'><img src={itchioIcon} alt="ItchioIcon"/></a>
                 </div>
-                <button className='vvd' onClick={() => onUpdateActiveLink('connect')}><a href="#connect">Contáctame</a></button>
+                <a href="#connect"><button className='vvd' onClick={() => onUpdateActiveLink('connect')}>Contáctame</button></a>
             </span>
         </Navbar.Collapse>
         </Container>

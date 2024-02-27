@@ -6,7 +6,7 @@ import imgRollingGuy from "../assets/img/Portada.PNG";
 import imgLaQueseria from "../assets/img/LaQueseria.png";
 import imgDitroWorld from "../assets/img/DitroWorld.png";
 import imgNoEsDoom from "../assets/img/NoEsDoom.png";
-import imgServicePaws from "../assets/img/ServicePaws.png";
+import imgServicePaws from "../assets/img/ServicePaws.jpg";
 import imgReactPortfolio from "../assets/img/React_Portfolio.png";
 import imgMinimalistPortfolio from "../assets/img/MinimalistPortfolio.png";
 

@@ -1,7 +1,7 @@
 import { useState, useEffect} from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import { ArrowRightCircle } from "react-bootstrap-icons";
-//import headerImg from "../assets/img/header-img.svg"; // --> Imagen con fondo Blanco
+import { ArrowRightCircle, ArrowDownCircle } from "react-bootstrap-icons";
+import MyCV from "../assets/cv/CV_AntonioSarmiento.pdf"; // --> Imagen con fondo Blanco
 import headerImg from "../assets/img/Antonio_Perfil_2.png";   // Imagen sin fondo blanco (PNG)
 //------------------------------------------------------------------
 
@@ -52,7 +52,7 @@ export const Banner = () => {
                         <span className='tagline'>Bienvenido a mi portafolio</span>
                         <h1>Hola, soy <br/>{`Antonio Sarmiento Yon`}<br/>|<span className='wrap'>{text}</span></h1>
                         <p>Bachiller de Ingeniería de Sistemas en la Universidad de Lima. <br/> Especializado en el desarrollo de Software:<br/>Videojuegos | Páginas Web</p>
-                        <button><a href='#connect'>Contáctame</a><ArrowRightCircle size={25}/></button>
+                        <button><a href={MyCV} download="MyCV">Descargar CV </a><ArrowDownCircle size={25}/></button>
                     </Col>
                     <Col xs={12} md={6} xl={5}>
                         <img src={headerImg} alt="Headder Img" />
