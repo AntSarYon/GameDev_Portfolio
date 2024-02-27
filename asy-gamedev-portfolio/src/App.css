@@ -21,8 +21,12 @@
   box-sizing: border-box;
 }
 
-.proj-txtx h6{
-  color: rgb(231, 238, 165);
+.proj-txtx h5{
+  color: rgb(232, 238, 183);
+}
+
+.proj-txtx h7{
+  color: rgb(0, 0, 0);
 }
 
 html{
@@ -458,6 +462,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   opacity: 0;
   width: 100%;
 }
+.proj-txtx p{
+  color: rgb(226, 226, 226);
+  font-size: medium;
+}
 .proj-imgbx:hover .proj-txtx {
   top: 50%;
   opacity: 1;
@@ -524,6 +532,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-weight: 400;
   color: #fff;
 }
+
+.logoBar{
+  width: 55px;
+  height: 55px;
+}
+
 .contact form input:focus::placeholder, .contact form textarea:focus::placeholder {
   color: #121212;
   opacity: 0.8;

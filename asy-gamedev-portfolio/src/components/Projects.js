@@ -19,49 +19,49 @@ export const Projects = () =>{
     const projects = [
         {
             title: "TOM-8-O",
-            description: "Si lees esto, eres muy guap@. Te invito un helado. rewrfewf fewewfwefew",
+            description: "Juego de tipeo en 2.5D, semifinalista de la GameJamPlus 2023-2024.",
             imgUrl: imgTomocho,
             pageUrl: "https://heinzdbv.itch.io/tom8-o",
             engine: "UNITY",
         },
         {
             title: "TRACES OF THE PAST",
-            description: "Si lees esto, eres muy guap@. Te invito un helado.",
+            description: "Juego de experiencia sensorial. Desarrollado durante la Quantum GameJam 2023.",
             imgUrl: imgTracesOfThePast,
             pageUrl: "https://nathkalantar.itch.io/traces-of-the-past",
             engine: "UNITY",
         },
         {
             title: "OTAKUEST",
-            description: "Si lees esto, eres muy guap@. Te invito un helado.",
+            description: "Juego de cartas 2D casual en primera persona, con elementos de novela visual.",
             imgUrl: imgOtakuest,
             pageUrl: "https://edyssonrbt.itch.io/otakuest",
             engine: "UNITY",
         },
         {
             title: "ROLLING GUY",
-            description: "Si lees esto, eres muy guap@. Te invito un helado.",
+            description: "Juego de plataformas en 2D enfocado en la velocidad y precisión del jugador.",
             imgUrl: imgRollingGuy,
             pageUrl: "https://larraondo.itch.io/rolling-guy",
             engine: "UNITY",
         },
         {
             title: "LA QUESERÍA",
-            description:  "Si lees esto, eres muy guap@. Te invito un helado.",
+            description: "Juego casual en 2D, donde debes prestar atención a los gustos de tus clientes.",
             imgUrl: imgLaQueseria,
             pageUrl: "https://nathkalantar.itch.io/la-queseria",
             engine: "UNITY",
         },
         {
             title: "DITRO WORLD",
-            description:  "Si lees esto, eres muy guap@. Te invito un helado.",
+            description:  "Juego serio que mezcla el 2D con elementos 3D para la enseñanza de la física.",
             imgUrl: imgDitroWorld,
             pageUrl: "https://larraondo.itch.io/ditroworld",
             engine: "UNITY",
         },
         {
             title: "NO ES DOOM",
-            description:  "Si lees esto, eres muy guap@. Te invito un helado.",
+            description:  "Un juego Shooter del tipo Survival Zombie, donde deberás resistir oleadas de enemigos.",
             imgUrl: imgNoEsDoom,
             pageUrl: "https://larraondo.itch.io/noesdoomreescalado",
             engine: "UNITY",
@@ -72,18 +72,11 @@ export const Projects = () =>{
 
     const webProjects = [
         {
-            title: "React Portfolio",
-            description: "Si lees esto, eres muy guap@. Te invito un helado. rewrfewf fewewfwefew",
+            title: "Portafolio de proyectos",
+            description: "Un portafolio profesional para exhibir proyectos.",
             imgUrl: imgReactPortfolio,
             pageUrl: "",
             engine: "React",
-        },
-        {
-            title: "Minimalist Portfolio",
-            description: "Si lees esto, eres muy guap@. Te invito un helado. rewrfewf fewewfwefew",
-            imgUrl: imgMinimalistPortfolio,
-            pageUrl: "",
-            engine: "HTML, CSS & Javascript",
         },
     ];
 
@@ -92,10 +85,15 @@ export const Projects = () =>{
     const inDevelopmentProjects = [
         {
             title: "SERVICE PAWS",
-            description: "Si lees esto, eres muy guap@. Te invito un helado. rewrfewf fewewfwefew",
+            description: "Juego casual que explora la importancia del apoyo emocional a través de una chica y su perro.",
             imgUrl: imgServicePaws,
-            pageUrl: "https://heinzdbv.itch.io/tom8-o",
             engine: "UNITY",
+        },
+        {
+            title: "Portafolio profesional simple",
+            description: "Un portafolio profesional minimalista.",
+            imgUrl: imgMinimalistPortfolio,
+            engine: "HTML, CSS & Javascript",
         },
     ];
     
@@ -107,11 +105,11 @@ export const Projects = () =>{
                 <Row>
                     <Col>
                         <h2>Mis Proyectos</h2>
-                        <p>Aquí encontrarás información sobre mis proyectos ya publicados, así como aquellos en los que estoy trabajando actualmente.</p>
+                        <p>Aquí encontrarás información actualizada sobre mis trabajos en curso, y los ya publicados.</p>
                         <Tab.Container id="projects-tabs" defaultActiveKey="first">
                         <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                             <Nav.Item>
-                                <Nav.Link eventKey="first">Videojuegos</Nav.Link>
+                                <Nav.Link eventKey="first">Video juegos</Nav.Link>
                             </Nav.Item>
                             <Nav.Item>
                                 <Nav.Link eventKey="second">Páginas Web</Nav.Link>
