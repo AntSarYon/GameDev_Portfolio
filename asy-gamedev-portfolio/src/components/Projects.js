@@ -39,6 +39,13 @@ export const Projects = () =>{
             engine: "UNITY",
         },
         {
+            title: "DITRO WORLD",
+            description:  "Juego serio que mezcla el 2D con elementos 3D para la enseñanza de la física.",
+            imgUrl: imgDitroWorld,
+            pageUrl: "https://larraondo.itch.io/ditroworld",
+            engine: "UNITY",
+        },
+        {
             title: "ROLLING GUY",
             description: "Juego de plataformas en 2D enfocado en la velocidad y precisión del jugador.",
             imgUrl: imgRollingGuy,
@@ -50,13 +57,6 @@ export const Projects = () =>{
             description: "Juego casual en 2D, donde debes prestar atención a los gustos de tus clientes.",
             imgUrl: imgLaQueseria,
             pageUrl: "https://nathkalantar.itch.io/la-queseria",
-            engine: "UNITY",
-        },
-        {
-            title: "DITRO WORLD",
-            description:  "Juego serio que mezcla el 2D con elementos 3D para la enseñanza de la física.",
-            imgUrl: imgDitroWorld,
-            pageUrl: "https://larraondo.itch.io/ditroworld",
             engine: "UNITY",
         },
         {
