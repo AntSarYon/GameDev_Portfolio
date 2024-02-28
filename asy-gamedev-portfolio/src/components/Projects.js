@@ -19,49 +19,49 @@ export const Projects = () =>{
     const projects = [
         {
             title: "TOM-8-O",
-            description: "Juego de tipeo en 2.5D, semifinalista de la GameJamPlus 2023-2024.",
+            description: "A 2.5D typing game. GameJamPlus 2023-2024 Latin American finalist.",
             imgUrl: imgTomocho,
             pageUrl: "https://heinzdbv.itch.io/tom8-o",
             engine: "UNITY",
         },
         {
             title: "TRACES OF THE PAST",
-            description: "Juego de experiencia sensorial. Desarrollado durante la Quantum GameJam 2023.",
+            description: "Sensory experience game. Developed during Quantum GameJam 2023.",
             imgUrl: imgTracesOfThePast,
             pageUrl: "https://nathkalantar.itch.io/traces-of-the-past",
             engine: "UNITY",
         },
         {
             title: "OTAKUEST",
-            description: "Juego de cartas 2D casual en primera persona, con elementos de novela visual.",
+            description: "Casual 2D first-person card game with visual novel elements.",
             imgUrl: imgOtakuest,
             pageUrl: "https://edyssonrbt.itch.io/otakuest",
             engine: "UNITY",
         },
         {
             title: "DITRO WORLD",
-            description:  "Juego serio que mezcla el 2D con elementos 3D para la enseñanza de la física.",
+            description:  "Serious game that mixes a 2D rpg with 3D elements for teaching physics.",
             imgUrl: imgDitroWorld,
             pageUrl: "https://larraondo.itch.io/ditroworld",
             engine: "UNITY",
         },
         {
             title: "ROLLING GUY",
-            description: "Juego de plataformas en 2D enfocado en la velocidad y precisión del jugador.",
+            description: "2D platform game focused on the player's speed and precision.",
             imgUrl: imgRollingGuy,
             pageUrl: "https://larraondo.itch.io/rolling-guy",
             engine: "UNITY",
         },
         {
             title: "LA QUESERÍA",
-            description: "Juego casual en 2D, donde debes prestar atención a los gustos de tus clientes.",
+            description: "2D casual game, where you must pay attention to the tastes of your customers.",
             imgUrl: imgLaQueseria,
             pageUrl: "https://nathkalantar.itch.io/la-queseria",
             engine: "UNITY",
         },
         {
-            title: "NO ES DOOM",
-            description:  "Un juego Shooter del tipo Survival Zombie, donde deberás resistir oleadas de enemigos.",
+            title: "IT´S NOT DOOM",
+            description:  "A Shooter game of the Zombie Survival type, where you will have to resist waves of enemies.",
             imgUrl: imgNoEsDoom,
             pageUrl: "https://larraondo.itch.io/noesdoomreescalado",
             engine: "UNITY",
@@ -72,8 +72,8 @@ export const Projects = () =>{
 
     const webProjects = [
         {
-            title: "Portafolio de proyectos",
-            description: "Un portafolio profesional para exhibir proyectos.",
+            title: "Project portfolio",
+            description: "A professional portfolio to showcase projects.",
             imgUrl: imgReactPortfolio,
             pageUrl: "",
             engine: "React",
@@ -85,13 +85,13 @@ export const Projects = () =>{
     const inDevelopmentProjects = [
         {
             title: "SERVICE PAWS",
-            description: "Juego casual que explora la importancia del apoyo emocional a través de una chica y su perro.",
+            description: "Casual game that explores the importance of emotional support through a girl and her dog.",
             imgUrl: imgServicePaws,
             engine: "UNITY",
         },
         {
-            title: "Portafolio profesional simple",
-            description: "Un portafolio profesional minimalista.",
+            title: "Simple professional portfolio",
+            description: "A minimalist professional portfolio.",
             imgUrl: imgMinimalistPortfolio,
             engine: "HTML, CSS & Javascript",
         },
@@ -104,18 +104,20 @@ export const Projects = () =>{
             <Container>
                 <Row>
                     <Col>
-                        <h2>Mis Proyectos</h2>
-                        <p>Aquí encontrarás información actualizada sobre mis trabajos en curso, y los ya publicados.</p>
+                        <h2>My projects</h2>
+                        <p>Here you will find updated information about my works in progress, and those already published. <br/>
+                            Take in count that some of them were programmed with spanish as default language.
+                        </p>
                         <Tab.Container id="projects-tabs" defaultActiveKey="first">
                         <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                             <Nav.Item>
-                                <Nav.Link eventKey="first">Video juegos</Nav.Link>
+                                <Nav.Link eventKey="first">Video games</Nav.Link>
                             </Nav.Item>
                             <Nav.Item>
-                                <Nav.Link eventKey="second">Páginas Web</Nav.Link>
+                                <Nav.Link eventKey="second">Web Sites</Nav.Link>
                             </Nav.Item>
                             <Nav.Item>
-                                <Nav.Link eventKey="third">En desarrollo</Nav.Link>
+                                <Nav.Link eventKey="third">Work in progres</Nav.Link>
                             </Nav.Item>
                         </Nav>
                         <Tab.Content>

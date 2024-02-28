@@ -48,9 +48,9 @@ export const NavBar = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-            <Nav.Link href="#home" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>Inicio</Nav.Link>
-            <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>Proyectos</Nav.Link>
-            <Nav.Link href="#skills" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}>Habilidades</Nav.Link>
+            <Nav.Link href="#home" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>Home</Nav.Link>
+            <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>Projects</Nav.Link>
+            <Nav.Link href="#skills" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}>Skills</Nav.Link>
             </Nav>
             <span className="navbar-text">
                 <div className="social-icon">
@@ -58,7 +58,7 @@ export const NavBar = () => {
                     <a href="https://github.com/AntSarYon" target='_blank'><img src={GitHubIcon} alt="GitHubIcon"/></a>
                     <a href="https://larraondo.itch.io" target='_blank'><img src={itchioIcon} alt="ItchioIcon"/></a>
                 </div>
-                <a href="#connect"><button className='vvd' onClick={() => onUpdateActiveLink('connect')}>Contáctame</button></a>
+                <a href="#connect"><button className='vvd' onClick={() => onUpdateActiveLink('connect')}>Contact me</button></a>
             </span>
         </Navbar.Collapse>
         </Container>

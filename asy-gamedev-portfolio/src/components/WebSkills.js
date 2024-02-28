@@ -40,11 +40,11 @@ export const WebSkills = () =>{
                     <Col>
                     <div className="skill-bx">
                         <h2>
-                            Mis habilidades | Web Development
+                            My skills | Web Development
                         </h2>
                         <p>
-                            Por el lado del desarrollo web, domino principalmente el FrontEnd. <br/> 
-                            Tengo experiencia trabajando con el framework de NodeJS, utilizando principalmente las librerias de React y Angular.
+                            On the web development side, I am mainly proficient in FrontEnd. <br/> 
+                            I have experience working with the NodeJS framework, mainly using the React and Angular libraries.
                         </p>
                         <Carousel responsive={responsive} infinite={true} className="skill-slider">
                             <div className="item">

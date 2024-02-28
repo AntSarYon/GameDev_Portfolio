@@ -40,10 +40,10 @@ export const Skills = () =>{
                     <Col>
                     <div className="skill-bx">
                         <h2>
-                            Mis habilidades | Game Development
+                            My skills | Game Development
                         </h2>
                         <p>
-                            Me especializo en la programación, sabiendo trabajar con los motores de UNITY y UNREAL ENGINE, y manteniendo un buen dominio de sus respectivos lenguajes de programación: C# y C++.
+                            I specialize in programming, knowing how to work with UNITY and UNREAL ENGINE engines, and maintaining a good level of skill in their respective programming languages: C# and C++.
                         </p>
                         <Carousel responsive={responsive} infinite={true} className="skill-slider">
                             <div className="item">
@@ -64,29 +64,29 @@ export const Skills = () =>{
                             </div>
                         </Carousel>
                         <p>
-                            Si bien me especializo en programación, también me he desempeñado en otras áreas dentro del desarrollo de juegos. <br/>
-                            A continuación, comparto mi capacidad de trabajo en distintos roles según mi experiencia previa.
+                            Although I specialize in programming, I have also worked in other areas within game development. <br/>
+                            Below, I share my ability to work in different roles according to my previous experience.
                         </p>
                         <Carousel responsive={responsive} infinite={true} className="skill-slider">
                             <div className="item">
                                 <img src={meter90} alt="ImageMeter"/>
-                                <h5>Narrativa</h5>
+                                <h5>Narrative</h5>
                             </div>
                             <div className="item">
-                                <img src={meter65} alt="ImageMeter"/>
-                                <h5>Game Designer </h5>
+                                <img src={meter75} alt="ImageMeter"/>
+                                <h5>UI/UX Designer</h5>
                             </div>
                             <div className="item">
                                 <img src={meter70} alt="ImageMeter"/>
-                                <h5>Level Designer</h5>
+                                <h5>Game Designer</h5>
                             </div>
                             <div className="item">
                                 <img src={meter60} alt="ImageMeter"/>
-                                <h5>Artista 2D</h5>
+                                <h5>2D Artist</h5>
                             </div>
                             <div className="item">
                                 <img src={meter60} alt="ImageMeter"/>
-                                <h5>Modelador 3D</h5>
+                                <h5>3D Modeler</h5>
                             </div>
                             
                         </Carousel>
