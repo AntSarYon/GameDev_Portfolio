@@ -73,19 +73,19 @@ export const Skills = () =>{
                                 <h5>Narrative</h5>
                             </div>
                             <div className="item">
+                                <img src={meter80} alt="ImageMeter"/>
+                                <h5>Game Designer</h5>
+                            </div>
+                            <div className="item">
                                 <img src={meter75} alt="ImageMeter"/>
                                 <h5>UI/UX Designer</h5>
                             </div>
                             <div className="item">
-                                <img src={meter70} alt="ImageMeter"/>
-                                <h5>Game Designer</h5>
-                            </div>
-                            <div className="item">
-                                <img src={meter60} alt="ImageMeter"/>
+                                <img src={meter65} alt="ImageMeter"/>
                                 <h5>2D Artist</h5>
                             </div>
                             <div className="item">
-                                <img src={meter60} alt="ImageMeter"/>
+                                <img src={meter65} alt="ImageMeter"/>
                                 <h5>3D Modeler</h5>
                             </div>
                             
