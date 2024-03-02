@@ -19,49 +19,49 @@ export const Projects = () =>{
     const projects = [
         {
             title: "TOM-8-O",
-            description: "A 2.5D typing game. GameJamPlus 2023-2024 Latin American finalist.",
+            description: "2.5D rhythm and typing game. Help the cute robot to get his new plant safely to his factory before time runs out. Semifinalist of the GameJamPlus 2023-2024.",
             imgUrl: imgTomocho,
             pageUrl: "https://heinzdbv.itch.io/tom8-o",
             engine: "UNITY",
         },
         {
             title: "TRACES OF THE PAST",
-            description: "Sensory experience game. Developed during Quantum GameJam 2023.",
+            description: "Sensory experience game. Recover your most precious memories as you explore a mind darkened by Alzheimer's. Developed during Quantum GameJam 2023.",
             imgUrl: imgTracesOfThePast,
             pageUrl: "https://nathkalantar.itch.io/traces-of-the-past",
             engine: "UNITY",
         },
         {
             title: "OTAKUEST",
-            description: "Casual 2D first-person card game with visual novel elements.",
+            description: "Casual 2D first-person card game with visual novel elements. Play an Otaku as he tries to socialize using a questionable deck of cards.",
             imgUrl: imgOtakuest,
             pageUrl: "https://edyssonrbt.itch.io/otakuest",
             engine: "UNITY",
         },
         {
             title: "DITRO WORLD",
-            description:  "Serious game that mixes a 2D rpg with 3D elements for teaching physics.",
+            description:  "Serious game that mixes 2D rpg style with 3D elements for teaching physics. Control Ditro, an advanced robot created with the mission to grow in wisdom.",
             imgUrl: imgDitroWorld,
             pageUrl: "https://larraondo.itch.io/ditroworld",
             engine: "UNITY",
         },
         {
             title: "ROLLING GUY",
-            description: "2D platform game focused on the player's speed and precision.",
+            description: "Pixelart 2D platformer focused on player speed and precision. Make your way to your final destination as fast as you can while clearing the area of monsters.",
             imgUrl: imgRollingGuy,
             pageUrl: "https://larraondo.itch.io/rolling-guy",
             engine: "UNITY",
         },
         {
             title: "LA QUESERÍA",
-            description: "2D casual game, where you must pay attention to the tastes of your customers.",
+            description: "A 2D casual game. Pay attention to the dialogues and help a little mouse with social anxiety to find the ideal cheese for his customers.",
             imgUrl: imgLaQueseria,
             pageUrl: "https://nathkalantar.itch.io/la-queseria",
             engine: "UNITY",
         },
         {
             title: "IT´S NOT DOOM",
-            description:  "A Shooter game of the Zombie Survival type, where you will have to resist waves of enemies.",
+            description:  "A Shooter game of the Survival Zombie type, where you will have to resist waves of enemies to prevent them from... dance?",
             imgUrl: imgNoEsDoom,
             pageUrl: "https://larraondo.itch.io/noesdoomreescalado",
             engine: "UNITY",
@@ -73,7 +73,7 @@ export const Projects = () =>{
     const webProjects = [
         {
             title: "Project portfolio",
-            description: "A professional portfolio to showcase projects.",
+            description: "A responsive professional portfolio to showcase projects and skills.",
             imgUrl: imgReactPortfolio,
             pageUrl: "",
             engine: "React",
@@ -85,13 +85,13 @@ export const Projects = () =>{
     const inDevelopmentProjects = [
         {
             title: "SERVICE PAWS",
-            description: "Casual game that explores the importance of emotional support through a girl and her dog.",
+            description: "A 2D pixelart casual game that explores the importance of emotional support through Emma, a girl with symptoms of depression, and Nugget, her dog.",
             imgUrl: imgServicePaws,
             engine: "UNITY",
         },
         {
             title: "Simple professional portfolio",
-            description: "A minimalist professional portfolio.",
+            description: "A minimalist professional portfolio, for those looking for an alternative to the traditional resume format.",
             imgUrl: imgMinimalistPortfolio,
             engine: "HTML, CSS & Javascript",
         },

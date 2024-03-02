@@ -52,7 +52,7 @@ export const WebSkills = () =>{
                                 <h5>FrontEnd</h5>
                             </div>
                             <div className="item">
-                                <img src={meter65} alt="ImageMeter"/>
+                                <img src={meter70} alt="ImageMeter"/>
                                 <h5>BackEnd</h5>
                             </div>
                             <div className="item">
@@ -61,15 +61,27 @@ export const WebSkills = () =>{
                             </div>
                             <div className="item">
                                 <img src={meter70} alt="ImageMeter"/>
-                                <h5>Node.js</h5>
-                            </div>
-                            <div className="item">
-                                <img src={meter70} alt="ImageMeter"/>
                                 <h5>React</h5>
                             </div>
                             <div className="item">
                                 <img src={meter60} alt="ImageMeter"/>
                                 <h5>Angular</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter75} alt="ImageMeter"/>
+                                <h5>Node.js</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter70} alt="ImageMeter"/>
+                                <h5>.NET</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter80} alt="ImageMeter"/>
+                                <h5>SQL</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter70} alt="ImageMeter"/>
+                                <h5>NoSQL</h5>
                             </div>
                         </Carousel>
                     </div>
