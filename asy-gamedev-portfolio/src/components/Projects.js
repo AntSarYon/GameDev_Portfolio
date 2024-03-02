@@ -33,7 +33,7 @@ export const Projects = () =>{
         },
         {
             title: "OTAKUEST",
-            description: "Juego de cartas 2D casual en primera persona, con elementos de novela visual. Interpreta a un Otaku mientras intenta socializar utilizando un cuestionable mazo de cartas",
+            description: "Juego de cartas 2D casual en primera persona, con elementos de novela visual. Interpreta a un Otaku mientras intenta socializar utilizando un cuestionable mazo de cartas.",
             imgUrl: imgOtakuest,
             pageUrl: "https://edyssonrbt.itch.io/otakuest",
             engine: "UNITY",
