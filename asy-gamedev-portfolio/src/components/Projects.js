@@ -47,21 +47,21 @@ export const Projects = () =>{
         },
         {
             title: "ROLLING GUY",
-            description: "Juego pixelart de plataformas 2D enfocado en la velocidad y precisión del jugador. Ábrete paso hasta tu destino final lo más rápido que puedas mientras despejas la zona de mounstruos.",
+            description: "Juego pixelart de plataformas 2D enfocado en la velocidad y precisión del jugador. Ábrete paso hasta tu destino final lo más rápido que puedas mientras despejas la zona de monstruos.",
             imgUrl: imgRollingGuy,
             pageUrl: "https://larraondo.itch.io/rolling-guy",
             engine: "UNITY",
         },
         {
             title: "LA QUESERÍA",
-            description: "Juego casual en 2D, donde debes prestar atención a los gustos de tus clientes.",
+            description: "Juego casual en 2D. Presta atención a los diálogos y ayuda a un ratoncito con ansiedad social a encontrar el queso ideal para sus clientes.",
             imgUrl: imgLaQueseria,
             pageUrl: "https://nathkalantar.itch.io/la-queseria",
             engine: "UNITY",
         },
         {
             title: "NO ES DOOM",
-            description:  "Un juego Shooter del tipo Survival Zombie, donde deberás resistir oleadas de enemigos.",
+            description:  "Un juego Shooter del tipo Survival Zombie, donde deberás resistir oleadas de enemigos para impedir que... ¿Se pongan a bailar?",
             imgUrl: imgNoEsDoom,
             pageUrl: "https://larraondo.itch.io/noesdoomreescalado",
             engine: "UNITY",
@@ -73,7 +73,7 @@ export const Projects = () =>{
     const webProjects = [
         {
             title: "Portafolio de proyectos",
-            description: "Un portafolio profesional para exhibir proyectos.",
+            description: "Un portafolio profesional responsivo para exhibir proyectos y habilidades.",
             imgUrl: imgReactPortfolio,
             pageUrl: "",
             engine: "React",
@@ -85,13 +85,13 @@ export const Projects = () =>{
     const inDevelopmentProjects = [
         {
             title: "SERVICE PAWS",
-            description: "Juego casual que explora la importancia del apoyo emocional a través de una chica y su perro.",
+            description: "Juego casual en pixelart 2D que explora la importancia del apoyo emocional a través de Emma, una chica con síntomas de depresión, y Nugget, su perro.",
             imgUrl: imgServicePaws,
             engine: "UNITY",
         },
         {
             title: "Portafolio profesional simple",
-            description: "Un portafolio profesional minimalista.",
+            description: "Un portafolio profesional minimalista, para quienes buscan una alternativa al formato tradicional de los C.V.",
             imgUrl: imgMinimalistPortfolio,
             engine: "HTML, CSS & Javascript",
         },
