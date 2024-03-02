@@ -59,13 +59,13 @@ export const Skills = () =>{
                                 <h5>C++</h5>
                             </div>
                             <div className="item">
-                                <img src={meter70} alt="ImageMeter"/>
+                                <img src={meter75} alt="ImageMeter"/>
                                 <h5>UNREAL ENGINE</h5>
                             </div>
                         </Carousel>
                         <p>
                             Si bien me especializo en programación, también me he desempeñado en otras áreas dentro del desarrollo de juegos. <br/>
-                            A continuación, comparto mi capacidad de trabajo en distintos roles según mi experiencia previa.
+                            A continuación, comparto mi nivel de habilidad en distintos roles según mi experiencia previa.
                         </p>
                         <Carousel responsive={responsive} infinite={true} className="skill-slider">
                             <div className="item">
@@ -73,19 +73,19 @@ export const Skills = () =>{
                                 <h5>Narrativa</h5>
                             </div>
                             <div className="item">
-                                <img src={meter65} alt="ImageMeter"/>
+                                <img src={meter80} alt="ImageMeter"/>
                                 <h5>Game Designer </h5>
                             </div>
                             <div className="item">
                                 <img src={meter70} alt="ImageMeter"/>
-                                <h5>Level Designer</h5>
+                                <h5>UI/UX Designer</h5>
                             </div>
                             <div className="item">
-                                <img src={meter60} alt="ImageMeter"/>
+                                <img src={meter65} alt="ImageMeter"/>
                                 <h5>Artista 2D</h5>
                             </div>
                             <div className="item">
-                                <img src={meter60} alt="ImageMeter"/>
+                                <img src={meter65} alt="ImageMeter"/>
                                 <h5>Modelador 3D</h5>
                             </div>
                             

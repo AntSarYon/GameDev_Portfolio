@@ -52,7 +52,7 @@ export const Banner = () => {
                         <span className='tagline'>Bienvenido a mi portafolio</span>
                         <h1>Hola, soy <br/>{`Antonio Sarmiento Yon`}<br/>|<span className='wrap'>{text}</span></h1>
                         <p>Bachiller de Ingeniería de Sistemas en la Universidad de Lima. <br/> Especializado en el desarrollo de Software:<br/>Videojuegos | Páginas Web</p>
-                        <button><a href={MyCV} download="CV_AntonioSarmientoYon">Descargar CV </a><ArrowDownCircle size={25}/></button>
+                        <button><a href={MyCV} download="CV_AntonioSarmientoYon">Descargar C.V. </a><ArrowDownCircle size={25}/></button>
                     </Col>
                     <Col xs={12} md={6} xl={5}>
                         <img src={headerImg} alt="Headder Img" />

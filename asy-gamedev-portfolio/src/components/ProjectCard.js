@@ -9,7 +9,7 @@ export const ProjectCard = ({title, description, imgUrl, pageUrl, engine}) => {
                     <h4>{title}</h4>
                     <p>{description}</p>
                     <h5>{engine}</h5>
-                    <Button variant="warning" href={pageUrl} target='_blank'><h7>Visitar sitio</h7></Button>
+                    <Button variant="warning" href={pageUrl} target='_blank'><h7>Visit site</h7></Button>
                 </div>
             </div>
         </Col>
