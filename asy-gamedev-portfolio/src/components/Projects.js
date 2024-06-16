@@ -103,7 +103,7 @@ export const Projects = () =>{
         {
             title: "HORROR GAME",
             description: "A minimalist professional portfolio, for those looking for an alternative to the traditional resume format.",
-            imgUrl: imgTheGuide,
+            imgUrl: imgElCharco,
             engine: "UNREAL",
         },
     ];
