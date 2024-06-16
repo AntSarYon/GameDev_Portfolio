@@ -6,17 +6,20 @@ import imgRollingGuy from "../assets/img/Portada.PNG";
 import imgLaQueseria from "../assets/img/LaQueseria.png";
 import imgDitroWorld from "../assets/img/DitroWorld.png";
 import imgNoEsDoom from "../assets/img/NoEsDoom.png";
-import imgServicePaws from "../assets/img/ServicePaws.jpg";
-import imgReactPortfolio from "../assets/img/React_Portfolio.png";
-import imgMinimalistPortfolio from "../assets/img/MinimalistPortfolio.png";
+import imgServicePaws from "../assets/img/ServicePaws.png";
+import { ArrowDownCircle } from "react-bootstrap-icons";
+import imgTheSanctuary from "../assets/img/TheSanctuary.png";
+import imgElCharco from "../assets/img/ElCharco.png";
+import imgTheGuide from "../assets/img/TheGuide.png";
 
 import { ProjectCard } from "./ProjectCard";
 import { InDevelopmentCard } from ".//InDevelopmentCard";
 import colorSharp2 from "../assets/img/color-sharp2.png"
+import MyPortfolio from "../assets/cv/Portafolio_AntonioSarmientoYon.pdf"
 
 export const Projects = () =>{
     
-    const projects = [
+    const unityProjects = [
         {
             title: "TOM-8-O",
             description: "Juego de tipeo y ritmo en 2.5D. Ayuda al tierno robot a llevar su nueva planta sana y salva hasta su fábrica, antes de que se acabe el tiempo. Semifinalista de la GameJamPlus 2023-2024.",
@@ -53,6 +56,13 @@ export const Projects = () =>{
             engine: "UNITY",
         },
         {
+            title: "SERVICE PAWS",
+            description: "Juego casual en pixelart 2D que explora la importancia del apoyo emocional a través de Emma, una chica con síntomas de depresión, y Nugget, su perro.",
+            imgUrl: imgServicePaws,
+            pageUrl: "https://larraondo.itch.io/service-paws",
+            engine: "UNITY",
+        },
+        {
             title: "LA QUESERÍA",
             description: "Juego casual en 2D. Presta atención a los diálogos y ayuda a un ratoncito con ansiedad social a encontrar el queso ideal para sus clientes.",
             imgUrl: imgLaQueseria,
@@ -70,13 +80,20 @@ export const Projects = () =>{
 
     //- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 
-    const webProjects = [
+    const unrealProjects = [
         {
-            title: "Portafolio de proyectos",
-            description: "Un portafolio profesional responsivo para exhibir proyectos y habilidades.",
-            imgUrl: imgReactPortfolio,
+            title: "THE SANCTUARY",
+            description: "Una Demo en primera persona que implementa aspectos básicos de Gameplay. Recolecta las estatuas para acceder al santuario, pero cuidado con el guardián.",
+            imgUrl: imgTheSanctuary,
             pageUrl: "",
-            engine: "React",
+            engine: "UNREAL",
+        },
+        {
+            title: "THE GUIDE",
+            description: "Un juego de sigilo en primera persona. Dale órdenes a una IA y utiliza las cámaras de vigilancia para escapar del recinto sin ser descubiertos. ",
+            imgUrl: imgTheGuide,
+            pageUrl: "",
+            engine: "UNREAL",
         },
     ];
 
@@ -84,16 +101,10 @@ export const Projects = () =>{
 
     const inDevelopmentProjects = [
         {
-            title: "SERVICE PAWS",
-            description: "Juego casual en pixelart 2D que explora la importancia del apoyo emocional a través de Emma, una chica con síntomas de depresión, y Nugget, su perro.",
-            imgUrl: imgServicePaws,
-            engine: "UNITY",
-        },
-        {
-            title: "Portafolio profesional simple",
-            description: "Un portafolio profesional minimalista, para quienes buscan una alternativa al formato tradicional de los C.V.",
-            imgUrl: imgMinimalistPortfolio,
-            engine: "HTML, CSS & Javascript",
+            title: "HORROR GAME",
+            description: "Un juego pixelart en 2.5D con temática de horror náutico. Controla a una niña mientras intenta encontrar a su madre dentro de una cueva submarina.",
+            imgUrl: imgElCharco,
+            engine: "UNREAL",
         },
     ];
     
@@ -106,13 +117,15 @@ export const Projects = () =>{
                     <Col>
                         <h2>Mis Proyectos</h2>
                         <p>Aquí encontrarás información actualizada sobre mis trabajos en curso, y los ya publicados.</p>
+                        <h4><button><a href={MyPortfolio} download="Portafolio_AntonioSarmientoYon">Descargar Portafolio</a><ArrowDownCircle size={25}/></button></h4>
+
                         <Tab.Container id="projects-tabs" defaultActiveKey="first">
                         <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                             <Nav.Item>
-                                <Nav.Link eventKey="first">Video juegos</Nav.Link>
+                                <Nav.Link eventKey="first">UNITY</Nav.Link>
                             </Nav.Item>
                             <Nav.Item>
-                                <Nav.Link eventKey="second">Páginas Web</Nav.Link>
+                                <Nav.Link eventKey="second">UNREAL</Nav.Link>
                             </Nav.Item>
                             <Nav.Item>
                                 <Nav.Link eventKey="third">En desarrollo</Nav.Link>
@@ -122,7 +135,7 @@ export const Projects = () =>{
                             <Tab.Pane eventKey="first">
                                 <Row>
                                     {
-                                        projects.map((project, index) => {
+                                        unityProjects.map((project, index) => {
                                             return(
                                                 <ProjectCard key={index} {...project} />
                                             )
@@ -133,7 +146,7 @@ export const Projects = () =>{
                             <Tab.Pane eventKey="second">
                             <Row>
                                     {
-                                        webProjects.map((project, index) => {
+                                        unrealProjects.map((project, index) => {
                                             return(
                                                 <ProjectCard key={index} {...project} />
                                             )
