@@ -6,13 +6,17 @@ import imgRollingGuy from "../assets/img/Portada.PNG";
 import imgLaQueseria from "../assets/img/LaQueseria.png";
 import imgDitroWorld from "../assets/img/DitroWorld.png";
 import imgNoEsDoom from "../assets/img/NoEsDoom.png";
-import imgServicePaws from "../assets/img/ServicePaws.jpg";
-import imgReactPortfolio from "../assets/img/React_Portfolio.png";
-import imgMinimalistPortfolio from "../assets/img/MinimalistPortfolio.png";
+import imgServicePaws from "../assets/img/ServicePaws.png";
+import { ArrowDownCircle } from "react-bootstrap-icons";
+import imgTheSanctuary from "../assets/img/TheSanctuary.png";
+import imgElCharco from "../assets/img/ElCharco.png";
+import imgTheGuide from "../assets/img/TheGuide.png";
 
 import { ProjectCard } from "./ProjectCard";
 import { InDevelopmentCard } from ".//InDevelopmentCard";
 import colorSharp2 from "../assets/img/color-sharp2.png"
+import MyPortfolio from "../assets/cv/Portfolio_AntonioSarmientoYon.pdf"
+
 
 export const Projects = () =>{
     
