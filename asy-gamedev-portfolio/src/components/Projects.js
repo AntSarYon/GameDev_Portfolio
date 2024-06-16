@@ -90,7 +90,7 @@ export const Projects = () =>{
         },
         {
             title: "THE GUIDE",
-            description: "Un juego de sigilo en primera persona. Dale órdenes a una IA y utiliza las cámaras de vigilancia para escapar del recinto sin ser descubiertos. ",
+            description: "Un juego de sigilo en primera persona. Dale órdenes a una IA y utiliza las cámaras de vigilancia para escapar del recinto sin ser descubiertos.",
             imgUrl: imgTheGuide,
             pageUrl: "",
             engine: "UNREAL",
