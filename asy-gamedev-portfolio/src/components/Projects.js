@@ -20,7 +20,7 @@ import MyPortfolio from "../assets/cv/Portfolio_AntonioSarmientoYon.pdf"
 
 export const Projects = () =>{
     
-    const projects = [
+    const unityProjects = [
         {
             title: "TOM-8-O",
             description: "2.5D rhythm and typing game. Help the cute robot to get his new plant safely to his factory before time runs out. Semifinalist of the GameJamPlus 2023-2024.",
@@ -57,6 +57,13 @@ export const Projects = () =>{
             engine: "UNITY",
         },
         {
+            title: "SERVICE PAWS",
+            description: "Juego casual en pixelart 2D que explora la importancia del apoyo emocional a través de Emma, una chica con síntomas de depresión, y Nugget, su perro.",
+            imgUrl: imgServicePaws,
+            pageUrl: "https://larraondo.itch.io/service-paws",
+            engine: "UNITY",
+        },
+        {
             title: "LA QUESERÍA",
             description: "A 2D casual game. Pay attention to the dialogues and help a little mouse with social anxiety to find the ideal cheese for his customers.",
             imgUrl: imgLaQueseria,
@@ -74,13 +81,19 @@ export const Projects = () =>{
 
     //- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 
-    const webProjects = [
+    const unrealProjects = [
         {
-            title: "Project portfolio",
+            title: "THE SANCTUARY",
             description: "A responsive professional portfolio to showcase projects and skills.",
-            imgUrl: imgReactPortfolio,
+            imgUrl: imgTheSanctuary,
             pageUrl: "",
-            engine: "React",
+            engine: "UNREAL",
+        },
+        {
+            title: "THE GUIDE",
+            description: "A minimalist professional portfolio, for those looking for an alternative to the traditional resume format.",
+            imgUrl: imgTheGuide,
+            engine: "UNREAL",
         },
     ];
 
@@ -88,16 +101,10 @@ export const Projects = () =>{
 
     const inDevelopmentProjects = [
         {
-            title: "SERVICE PAWS",
-            description: "A 2D pixelart casual game that explores the importance of emotional support through Emma, a girl with symptoms of depression, and Nugget, her dog.",
-            imgUrl: imgServicePaws,
-            engine: "UNITY",
-        },
-        {
-            title: "Simple professional portfolio",
+            title: "HORROR GAME",
             description: "A minimalist professional portfolio, for those looking for an alternative to the traditional resume format.",
-            imgUrl: imgMinimalistPortfolio,
-            engine: "HTML, CSS & Javascript",
+            imgUrl: imgTheGuide,
+            engine: "UNREAL",
         },
     ];
     
@@ -115,20 +122,20 @@ export const Projects = () =>{
                         <Tab.Container id="projects-tabs" defaultActiveKey="first">
                         <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                             <Nav.Item>
-                                <Nav.Link eventKey="first">Video games</Nav.Link>
+                                <Nav.Link eventKey="first">UNITY</Nav.Link>
                             </Nav.Item>
                             <Nav.Item>
-                                <Nav.Link eventKey="second">Web Sites</Nav.Link>
+                                <Nav.Link eventKey="second">UNREAL</Nav.Link>
                             </Nav.Item>
                             <Nav.Item>
-                                <Nav.Link eventKey="third">Work in progres</Nav.Link>
+                                <Nav.Link eventKey="third">In progress</Nav.Link>
                             </Nav.Item>
                         </Nav>
                         <Tab.Content>
                             <Tab.Pane eventKey="first">
                                 <Row>
                                     {
-                                        projects.map((project, index) => {
+                                        unityProjects.map((project, index) => {
                                             return(
                                                 <ProjectCard key={index} {...project} />
                                             )
@@ -139,7 +146,7 @@ export const Projects = () =>{
                             <Tab.Pane eventKey="second">
                             <Row>
                                     {
-                                        webProjects.map((project, index) => {
+                                        unrealProjects.map((project, index) => {
                                             return(
                                                 <ProjectCard key={index} {...project} />
                                             )
