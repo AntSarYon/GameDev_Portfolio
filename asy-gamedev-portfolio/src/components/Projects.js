@@ -84,14 +84,14 @@ export const Projects = () =>{
     const unrealProjects = [
         {
             title: "THE SANCTUARY",
-            description: "A responsive professional portfolio to showcase projects and skills.",
+            description: "A first-person demo that implements basic aspects of gameplay. Collect the statues to access the shrine, but watch out for the guardian.",
             imgUrl: imgTheSanctuary,
             pageUrl: "",
             engine: "UNREAL",
         },
         {
             title: "THE GUIDE",
-            description: "A minimalist professional portfolio, for those looking for an alternative to the traditional resume format.",
+            description: "A first person stealth game. Give orders to an AI and use the surveillance cameras to escape from the enclosure without being discovered.",
             imgUrl: imgTheGuide,
             engine: "UNREAL",
         },
@@ -102,7 +102,7 @@ export const Projects = () =>{
     const inDevelopmentProjects = [
         {
             title: "HORROR GAME",
-            description: "A minimalist professional portfolio, for those looking for an alternative to the traditional resume format.",
+            description: "A 2.5D pixelart game with a nautical horror theme. Control a girl as she tries to find her mother inside an underwater cave.",
             imgUrl: imgElCharco,
             engine: "UNREAL",
         },
@@ -119,6 +119,7 @@ export const Projects = () =>{
                         <p>Here you will find updated information about my works in progress, and those already published. <br/>
                             Take in count that some of them were programmed with spanish as default language.
                         </p>
+                        <h4><button><a href={MyPortfolio} download="Portfolio_AntonioSarmientoYon">Download Portfolio</a><ArrowDownCircle size={25}/></button></h4>
                         <Tab.Container id="projects-tabs" defaultActiveKey="first">
                         <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                             <Nav.Item>
