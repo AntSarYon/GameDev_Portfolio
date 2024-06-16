@@ -58,7 +58,7 @@ export const Projects = () =>{
         },
         {
             title: "SERVICE PAWS",
-            description: "Juego casual en pixelart 2D que explora la importancia del apoyo emocional a través de Emma, una chica con síntomas de depresión, y Nugget, su perro.",
+            description: "2D pixelart casual game that explores the importance of emotional support through Emma, a girl with symptoms of depression, and Nugget, her dog.",
             imgUrl: imgServicePaws,
             pageUrl: "https://larraondo.itch.io/service-paws",
             engine: "UNITY",
