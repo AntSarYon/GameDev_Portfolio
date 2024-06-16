@@ -15,7 +15,6 @@ function App() {
       <Banner/>
       <Projects/>
       <Skills/>
-      <WebSkills/>
       <Contact/>
     </div>
   );
