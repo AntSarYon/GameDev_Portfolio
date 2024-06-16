@@ -1,7 +1,7 @@
 import { useState, useEffect} from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import { ArrowDownCircle } from "react-bootstrap-icons";
-import MyCV from "../assets/cv/CV_AntonioSarmiento.pdf"; // --> Imagen con fondo Blanco
+import MyCV from "../assets/cv/CV_EN_AntonioSarmiento.pdf"; // --> Imagen con fondo Blanco
 import headerImg from "../assets/img/Antonio_Perfil_2.png";   // Imagen sin fondo blanco (PNG)
 //------------------------------------------------------------------
 
@@ -49,10 +49,10 @@ export const Banner = () => {
             <Container>
                 <Row className='align-items-center'>
                     <Col xs={12} md={6} xl={7}>
-                        <span className='tagline'>Bienvenido a mi portafolio</span>
-                        <h1>Hola, soy <br/>{`Antonio Sarmiento Yon`}<br/>|Game <span className='wrap'>{text}</span></h1>
-                        <p>Bachiller de Ingeniería de Sistemas en la Universidad de Lima. <br/> Especializado en el desarrollo de Software Videojuegos</p>
-                        <button><a href={MyCV} download="CV_AntonioSarmientoYon">Descargar C.V. </a><ArrowDownCircle size={25}/></button>
+                        <span className='tagline'>Welcome to my portfolio</span>
+                        <h1>Hi, I'm <br/>{`Antonio Sarmiento Yon`}<br/>|Game <span className='wrap'>{text}</span></h1>
+                        <p>Bachelor's degree in Systems Engineering from Universidad de Lima. <br/>Specialized in the development of Software and Video Games.</p>
+                        <button><a href={MyCV} download="CV_EN_AntonioSarmientoYon">Download my Resume</a><ArrowDownCircle size={25}/></button>
                     </Col>
                     <Col xs={12} md={6} xl={5}>
                         <img src={headerImg} alt="Headder Img" />
