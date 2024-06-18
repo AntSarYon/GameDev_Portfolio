@@ -77,7 +77,7 @@ export const Skills = () =>{
                             </div>
                             <div className="item">
                                 <img src={meter75} alt="ImageMeter"/>
-                                <h5>AI (NPCs)</h5>
+                                <h5>Artificial Intelligence<br/>(NPCs)</h5>
                             </div>
                             <div className="item">
                                 <img src={meter75} alt="ImageMeter"/>
