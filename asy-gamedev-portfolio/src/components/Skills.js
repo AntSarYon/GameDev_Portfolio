@@ -40,7 +40,7 @@ export const Skills = () =>{
                     <Col>
                     <div className="skill-bx">
                         <h2>
-                            Mis habilidades | Game Development
+                            Mis habilidades
                         </h2>
                         <p>
                             Me especializo en la programación, sabiendo trabajar con los motores de UNITY y UNREAL ENGINE, y manteniendo un buen dominio de sus respectivos lenguajes de programación: C# y C++.
