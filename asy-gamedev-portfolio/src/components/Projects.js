@@ -86,13 +86,14 @@ export const Projects = () =>{
             title: "THE SANCTUARY",
             description: "A first-person demo that implements basic aspects of gameplay. Collect the statues to access the shrine, but watch out for the guardian.",
             imgUrl: imgTheSanctuary,
-            pageUrl: "",
+            pageUrl: "https://larraondo.itch.io/thesanctuary-demo",
             engine: "UNREAL",
         },
         {
             title: "THE GUIDE",
             description: "A first person stealth game. Give orders to an AI and use the surveillance cameras to escape from the enclosure without being discovered.",
             imgUrl: imgTheGuide,
+            pageUrl: "https://larraondo.itch.io/the-guide",
             engine: "UNREAL",
         },
     ];

@@ -64,8 +64,7 @@ export const Skills = () =>{
                             </div>
                         </Carousel>
                         <p>
-                            Although I specialize in programming, I have also worked in other areas within game development. <br/>
-                            Below, I share my ability to work in different roles according to my previous experience.
+                        Below I present my skill level in the different areas of programming within video game development.
                         </p>
                         <Carousel responsive={responsive} infinite={true} className="skill-slider">
                             <div className="item">
@@ -81,11 +80,15 @@ export const Skills = () =>{
                                 <h5>AI (NPCs)</h5>
                             </div>
                             <div className="item">
-                                <img src={meter70} alt="ImageMeter"/>
-                                <h5>Animations &<br/>Cinematics</h5>
+                                <img src={meter75} alt="ImageMeter"/>
+                                <h5>Character<br/>animation</h5>
                             </div>
                             <div className="item">
-                                <img src={meter60} alt="ImageMeter"/>
+                                <img src={meter70} alt="ImageMeter"/>
+                                <h5>Cinematics</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter65} alt="ImageMeter"/>
                                 <h5>Network &<br/>Multiplayer</h5>
                             </div>
                             
