@@ -40,7 +40,7 @@ export const Skills = () =>{
                     <Col>
                     <div className="skill-bx">
                         <h2>
-                            My skills | Game Development
+                            My skills
                         </h2>
                         <p>
                             I specialize in programming, knowing how to work with UNITY and UNREAL ENGINE engines, and maintaining a good level of skill in their respective programming languages: C# and C++.
