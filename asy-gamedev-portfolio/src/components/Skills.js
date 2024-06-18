@@ -70,23 +70,23 @@ export const Skills = () =>{
                         <Carousel responsive={responsive} infinite={true} className="skill-slider">
                             <div className="item">
                                 <img src={meter90} alt="ImageMeter"/>
-                                <h5>Narrative</h5>
+                                <h5>Gameplay &<br/>Mechanics</h5>
                             </div>
                             <div className="item">
                                 <img src={meter80} alt="ImageMeter"/>
-                                <h5>Game Designer</h5>
+                                <h5>User Interface<br/>(UI)</h5>
                             </div>
                             <div className="item">
                                 <img src={meter75} alt="ImageMeter"/>
-                                <h5>UI/UX Designer</h5>
+                                <h5>AI (NPCs)</h5>
                             </div>
                             <div className="item">
-                                <img src={meter65} alt="ImageMeter"/>
-                                <h5>2D Artist</h5>
+                                <img src={meter70} alt="ImageMeter"/>
+                                <h5>Animations &<br/>Cinematics</h5>
                             </div>
                             <div className="item">
-                                <img src={meter65} alt="ImageMeter"/>
-                                <h5>3D Modeler</h5>
+                                <img src={meter60} alt="ImageMeter"/>
+                                <h5>Network &<br/>Multiplayer</h5>
                             </div>
                             
                         </Carousel>
